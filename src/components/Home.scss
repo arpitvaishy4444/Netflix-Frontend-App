@@ -1,0 +1,43 @@
+.banner{
+    background-color: black;
+    height: 300px;
+    display: flex;
+    >img{
+        height: 280px;
+        width: 100vw;
+    }
+}
+
+.card{
+    width: 200px;
+    height: 250px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 0.5rem;
+
+
+    &:hover{
+        transform: translateY(-10px)
+    }
+}
+.row{
+    background-color: black;
+    >h2{
+        color: white;
+        font-weight: 300;
+
+    }
+
+>div{
+    display: flex;
+    overflow-x: auto;
+    padding: 1rem;
+    
+}
+}
+.h1tag{
+    color: rgb(176, 138, 138);
+    position: absolute;
+    top: 315px;
+    left: 76rem;
+}
